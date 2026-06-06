@@ -6,6 +6,6 @@ Array.prototype.myForEach = function (callback) {
 
 const myArr = [1, 2, 3];
 const val = myArr.myForEach((ele, idx, arr) => {
-  console.log(ele, idx, arr);
+  console.log(ele, idx, arr); // 1 2 3
 });
-console.log(val);
+console.log(val); // undefined
